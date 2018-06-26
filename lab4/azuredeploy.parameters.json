@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "adminUsername": {
-        "value": "pagy"
+        "value": "richeney"
       },
       "adminPassword": {
         "reference": {
@@ -13,8 +13,11 @@
           "secretName": "ubuntuDefaultPassword"
         }
       },
-      "dnsLabelPrefix": {
-        "value": "pagy"
+      "vnetName": {
+          "value": "ubuntuVnet"
+      },
+      "subnetName": {
+          "value": "ubuntuSubnet"
       }
     }
   }

@@ -19,7 +19,7 @@
         "metadata": {
           "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
         }
-      },
+         },
       "ubuntuOSVersion": {
         "type": "string",
         "defaultValue": "16.04.0-LTS",
