@@ -83,7 +83,7 @@
     },
     "variables": {
         "keyVaultResourceGroup": "keyVaults",
-        "derivedUri": "Add square brackets around: uri(deployment().properties.templateLink.uri, 'vm.json') ",
+        "derivedUri": "[uri(deployment().properties.template.link.uri, 'vm.json')]",
         "vmUri": "https://raw.githubusercontent.com/pagyP/Arm-Labs/master/lab7/vm.json"
     },
     "resources": [
