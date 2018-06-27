@@ -8,11 +8,17 @@
                 "description": "User name for the Virtual Machine."
             }
         },
-        "adminPassword": {
-            "type": "securestring",
+        "keyVaultName": {
+            "type": "string",
+            "value":"pmpvault",
             "metadata": {
                 "description": "Password for the Virtual Machine."
             }
+        },
+        "secretName": {
+            "type":"string",
+            "value":"ubuntuDefaultPassword"
+        }
         },
         "numberOfDataDisks": {
             "type": "int",
