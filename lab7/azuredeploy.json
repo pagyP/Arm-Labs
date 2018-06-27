@@ -81,9 +81,8 @@
             "metadata": {
                 "description": "CIDR address space for the subnet"
             }
-        }
-    
-    },
+        },
+      
     "variables": {
         "keyVaultResourceGroup": "RG_KeyVault",
         "derivedUri": "[uri(deployment().properties.template.link.uri, 'vm.json')]",
