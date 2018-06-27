@@ -18,7 +18,7 @@
         "secretName": {
             "type":"string",
             "value":"ubuntuDefaultPassword"
-        }
+            }
         },
         "numberOfDataDisks": {
             "type": "int",
