@@ -28,8 +28,7 @@
             "minLength": 4,
             "metadata": {
                 "description": "Name for the virtual machine"
-            }
-            
+            }   
         },
         "dnsLabelPrefix": {
             "type": "string",
@@ -77,6 +76,7 @@
             "metadata": {
                 "description": "CIDR address space for the subnet"
             }
+        }
         },
       
     "variables": {
@@ -136,5 +136,4 @@
         }
     ],
     "outputs": {}
-}
 }
