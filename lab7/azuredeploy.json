@@ -9,15 +9,11 @@
             }
         },
         "keyVaultName": {
-            "type": "string",
-            "metadata": {
-                "description": "Password for the Virtual Machine."
-            }
+            "type": "string"
         },
         "secretName": {
-            "type":"string"
-        }
-    },
+            "type": "string"
+        },
         "numberOfDataDisks": {
             "type": "int",
             "defaultValue": 1,
