@@ -9,7 +9,7 @@
         "value": "pagy"
       },
       "keyVaultName": {
-        "value": "pmpKeyVault"
+        "value": "pmpVault"
       },
       "secretName": {
         "value": "ubuntuDefaultPassword"
