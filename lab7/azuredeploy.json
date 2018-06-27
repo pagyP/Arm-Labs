@@ -82,7 +82,7 @@
         }
     },
     "variables": {
-        "keyVaultResourceGroup": "keyVaults",
+        "keyVaultResourceGroup": "RG_keyVault",
         "derivedUri": "[uri(deployment().properties.templateLink.uri, 'vm.json')]",
         "vmUri": "https://raw.githubusercontent.com/pagyP/Arm-Labs/master/lab7/vm.json"
     },
